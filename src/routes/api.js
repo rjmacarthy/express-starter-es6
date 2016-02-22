@@ -1,6 +1,6 @@
 'use strict';
 
-var api = require('../controllers/api');
+import * as api from '../controllers/api';
 
 export default (app) => {
 	app.route('/api/hello')
